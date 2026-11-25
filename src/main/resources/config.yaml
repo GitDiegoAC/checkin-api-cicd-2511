@@ -1,0 +1,18 @@
+http:
+  host: "0.0.0.0"
+  port: "8081"
+  protocol: "HTTPS"
+  listener:
+    path: "/api/*"
+  console:
+    path: "/console/*"
+    
+tls:
+  keyStore:
+    path: "check-in-papi.p12"
+    alias: "server"
+
+    
+api:
+  id: "21318769"
+  spec: "resource::f354e57e-70e5-4744-91d4-51243304f12a:simplified-check-in-papi:1.2.0:oas:zip:api.yaml"
